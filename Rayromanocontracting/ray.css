@@ -1,0 +1,274 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", "Raleway", "Century Gothic", Arial, sans-serif;
+
+}
+nav{
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 60px;
+    background-color: white;
+    font-family: proxima-nova;
+}
+nav>img{
+    height: 80px;
+    width: 80px;
+    display: flex;
+}
+nav ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+    font-weight: bold;
+    font-size: 14px;
+}
+nav li:hover{
+    cursor: pointer;
+    color: lightgray;
+}
+#sec1{
+    height: 600px;
+    background-image: url("./assets/Ray+Romano+Loft+renovation+nyc+brooklyn+hamptons+luxury+construction.webp");
+    background-position: center;
+    background-attachment: fixed; 
+    padding: 70px;
+}
+#sec1 h1{
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 80px;
+    width: 600px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 25px;
+    letter-spacing: 8px;
+    font-family: futura-pt;
+}
+#sec1 h3{
+    background-color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    width: 700px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: proxima-nova;
+}
+
+aside{
+    font-size: large;
+    padding: 150px 350px;
+}
+aside h2{
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: proxima-nova;
+    text-transform: uppercase;
+
+}
+aside p{
+    font-size: 15px;
+    font-family: proxima-nova;
+}
+
+#sec2{
+    height: 600px;
+    width: 100%;
+    background-image: url("./assets/Ray+Romano+Contracting+combination+renovation+luxury+contemporary+Upper+East+Side+NYC+Hamptons+Brooklyn+NJ.webp");
+    background-position: center;
+    background-attachment: fixed; 
+    padding: 70px;
+    background-size: contain;
+}
+#sec2 h1{
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+#sec3{
+    height: 600px;
+    width: 100%;
+    background-image: url("./assets/Ray+Romano+Hamptons+Sag+Harbor+renovation.webp");
+    background-position: center;
+    background-attachment: fixed; 
+    padding: 70px;
+    background-size: contain;
+}
+#sec3 h1{
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+#sec4{
+    height: 600px;
+    width: 100%;
+    background-image: url("./assets/1040.webp");
+    background-position: center;
+    background-attachment: fixed; 
+    padding: 70px;
+    /* background-size: contain; */
+}
+#sec4 h1{
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 80px;
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#sec5{
+    height: 600px;
+    width: 100%;
+    background-image: url("./assets/BB1.webp");
+    background-position: center;
+    background-attachment: fixed; 
+    padding: 70px;
+    /* background-size: contain; */
+}
+#sec5 h1{
+    font-family: "Source Sans Pro", sans-serif;
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 80px;
+    width: 170px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+#sec6 {
+  display: flex;
+  flex-wrap: wrap;      
+  justify-content: flex-start;
+  gap: 35px;
+  padding: 250px;
+  margin-top: -10%;
+  /* text-align: center; */
+}
+
+.a1 {
+  width: 30%;           
+  text-align: center;
+}
+
+.b1 {
+  position: relative;
+  overflow: hidden;
+}
+
+.b1 img {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+}
+
+.c1 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: red;
+  color: white;
+  padding: 6px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 3px;
+  opacity: 0;
+}
+
+.b1:hover .c1 {
+  opacity: 1;
+}
+
+.c1 a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px 20px;
+  position: relative;
+}
+
+.top-btn {
+  border: none;
+  position: absolute;
+  top: -25px;
+  left: 0;
+  right: 0;
+  margin: auto;       
+  background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.top-btn legend {
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+
+.top-btn a {
+  display: block;
+  color: #111;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;  
+  align-items: center;       
+  flex-wrap: wrap;           
+  gap: 20px;                
+  color: #fff;
+  font-size: 14px;
+}
+
+.social-icons {
+  margin-bottom: 15px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 6px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  background: #fff;
+  color: #111;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 14px;
+}
+
