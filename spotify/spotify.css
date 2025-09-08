@@ -1,0 +1,261 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;;
+}
+nav{
+    /* border: 2px solid; */
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+nav div{
+    /* border: 2px solid red; */
+    width: 10%;
+}
+
+nav div+div{
+    width: 35%;
+}
+
+nav ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size:16px;
+    font-weight: bolder;
+}
+nav svg{
+    height: 32px;
+    fill: white;
+}
+nav ol >li:hover{
+    cursor: pointer;
+    color: #1ed750;
+}
+nav svg:hover{
+    cursor: pointer;
+}
+main{
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(./assets/desktop-hero.jpeg) ;
+    background-size: cover;
+    background-position: 20% 40%;
+    color: white;
+}
+
+main div{
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+main h1{
+    font-size: 60px;
+    letter-spacing: -3px;
+}
+
+main button{
+    height: 50px;
+    width: 25%;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+}
+#sec1{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#sec1 h1{
+    text-align: center;
+    font-size: 40px;
+}
+#sec1 aside{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec1 aside div{
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sec1 div{
+    height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#sec1 p{
+    width: 80%;
+    line-height: 30px;
+}
+
+#sec2{
+    height: 450px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: -3px;
+    background-color: #1ed760;
+}
+#sec2 img{
+    height: 362px;
+    width: 700px;
+}
+
+#sec3{
+    /* border: 2px solid red; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+#sec3 h1{
+    font-size: 40px;
+    text-align: center;
+}
+#sec3 aside{
+    /* border: 2px solid red; */
+    width: 75%;
+    height: 200px;
+    
+}
+#sec div{
+    /* border: 2px solid ; */
+    border-bottom: 1px solid lightgrey;
+}
+#sec3 summary{
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+    height: 70px;
+    letter-spacing: -1px;
+}
+#sec3 summary:hover{
+    cursor: pointer;
+    background-color: #f5f5f5;
+    text-decoration: underline;
+}
+#sec summary>span{
+    float: right;
+}
+
+#sec3 p{
+    padding: 20px;
+}
+
+#sec3 font{
+    color: green;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#sec4{
+    /* border: 2px solid red; */
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-image: url(./assets/desktop-closing.jpeg);
+    background-size: cover;
+    background-position: 10% 30%;
+    color: white;
+}
+#sec4 div{
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#sec4 h1{
+    font-size: 60px;
+    letter-spacing: -3px;
+}
+#sec4 button{
+    height: 50px;
+    width: 25%;
+    background-color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 25px;
+    border: none;
+}
+footer{
+    /* border: 2px solid red; */
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+footer section{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+footer svg{
+    height: 35px;
+    fill: white;
+}
+footer section ol{
+    list-style: none;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+footer section ol>li{
+    color: gray;
+}
+footer section ol>li+li{
+    color: white;
+}
+footer section ol>li+li:hover{
+    cursor: pointer;
+    color: #1ed750;
+}
+footer section>div:last-child{
+    height: 80px;
+    width: 18%;
+    display: flex;
+    justify-content: space-between;
+}
+footer article {
+    font-size: 20px;
+    height: 50px;
+    border-radius: 50%;   
+    background-color: #222326;
+    color: white;
+    padding: 15px;
+}
